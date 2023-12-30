@@ -1,4 +1,0 @@
-log #1
-15-08-2023, 3:40 PM
-Achieved a stable flock with a very strong central force, very strong repulsion between two nearby boids(a~10^5), and a maximum velocity of 1, which is an energy state low enough such that the boids can settle into the global minimum.  
-Agents still clip from one end of the screen to the opposite (eg: exit right, enter left). 
