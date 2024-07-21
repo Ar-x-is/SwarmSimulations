@@ -1,0 +1,95 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{aac5c909-7434-3d95-961b-caf3aec6a743}{article}{}
+      \name{author}{1}{}{%
+        {{hash=60bb47a9e48cef074ad7639d555d22d4}{%
+           family={Dubins},
+           familyi={D\bibinitperiod},
+           given={L.\bibnamedelimi E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Johns Hopkins University Press}%
+      }
+      \strng{namehash}{60bb47a9e48cef074ad7639d555d22d4}
+      \strng{fullhash}{60bb47a9e48cef074ad7639d555d22d4}
+      \strng{bibnamehash}{60bb47a9e48cef074ad7639d555d22d4}
+      \strng{authorbibnamehash}{60bb47a9e48cef074ad7639d555d22d4}
+      \strng{authornamehash}{60bb47a9e48cef074ad7639d555d22d4}
+      \strng{authorfullhash}{60bb47a9e48cef074ad7639d555d22d4}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00029327, 10806377}
+      \field{journaltitle}{American Journal of Mathematics}
+      \field{number}{3}
+      \field{title}{On Curves of Minimal Length with a Constraint on Average Curvature, and with Prescribed Initial and Terminal Positions and Tangents}
+      \field{urlday}{3}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{79}
+      \field{year}{1957}
+      \field{urldateera}{ce}
+      \field{pages}{497\bibrangedash 516}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/2372560
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2372560
+      \endverb
+    \endentry
+    \entry{1605401}{article}{}
+      \name{author}{1}{}{%
+        {{hash=15e981d332839da280596605b85b1b9c}{%
+           family={Olfati-Saber},
+           familyi={O\bibinithyphendelim S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{15e981d332839da280596605b85b1b9c}
+      \strng{fullhash}{15e981d332839da280596605b85b1b9c}
+      \strng{bibnamehash}{15e981d332839da280596605b85b1b9c}
+      \strng{authorbibnamehash}{15e981d332839da280596605b85b1b9c}
+      \strng{authornamehash}{15e981d332839da280596605b85b1b9c}
+      \strng{authorfullhash}{15e981d332839da280596605b85b1b9c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{number}{3}
+      \field{title}{Flocking for multi-agent dynamic systems: algorithms and theory}
+      \field{volume}{51}
+      \field{year}{2006}
+      \field{pages}{401\bibrangedash 420}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1109/TAC.2005.864190
+      \endverb
+      \keyw{Heuristic algorithms;Algorithm design and analysis;Vehicle dynamics;Unmanned aerial vehicles;Self-assembly;Cost function;Peer to peer computing;Lyapunov method;Distributed control;Biosensors;Consensus theory;distributed control;dynamic graphs;mobile sensor networks;networked autonomous vehicles;self-assembly of networks;self-organizing systems;swarms}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
