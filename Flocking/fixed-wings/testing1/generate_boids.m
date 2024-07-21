@@ -1,6 +1,6 @@
 function [positions, velocities] = generate_boids(num_boids, range, min_d)
     % Check if the range is too small for the specified number of boids
-    if range / num_boids < min_d
+    if range / sqrt(num_boids) < min_d
         error('The specified range is too small to accommodate the specified number of boids with the given minimum distance.');
     end
     
@@ -19,7 +19,27 @@ function [positions, velocities] = generate_boids(num_boids, range, min_d)
                 break; % Exit the loop if the condition is satisfied
             end
         end
-        % Assign random velocities [-range/2, range/2]
+    end
+        % Assign positions to be the vertices of a triangular/square lattice
+         % Calculate the dimensions of the grid
+    side_length = ceil(sqrt(num_boids));
+
+    % % Place agents on the grid
+    % idx = 1;
+    % for i = 0:side_length-1
+    %     for j = 0:side_length-1
+    %         if idx > num_boids
+    %             break;
+    %         end
+    %         positions(idx, :) = [i * min_d, j * min_d];
+    %         idx = idx + 1;
+    %     end
+    %     if idx > num_boids
+    %         break;
+    %     end
+    % end
+    % Assign random velocities [-range/2, range/2]
+    for i = 1:num_boids
         velocities(i, :) = range*rand(1, 2) - range/2;
     end
 end
